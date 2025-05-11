@@ -6,19 +6,149 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise 3</title>
     <style>
-        .box {
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,500;1,600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: gray;
+            padding: 45px;
+            display: flex;
+        }
+
+        .card {
             background-color: white;
-            height: 450px;
-            width: 350px;
-            border: 2px solid blue;
+            width: 198px;
+            height: 344px;
+            border-radius: 7px;
+            padding: 0 0 34px 0;
+            margin: 4px;
+        }
+
+        .image {
+            padding: 5px;
+        }
+
+        .image img {
+            border-radius: 7px;
+        }
+
+        .content {
+            padding: 7px 13px;
+            font-family: "Poppins", sans-serif;
+        }
+
+        .content p {
+            font-size: 10px;
+            color: gray;
+        }
+
+        .capsules {
+            padding: 0 28px 0 14px;
+        }
+
+        .capsules span {
+            border: 1px solid gray;
+            padding: 0px 6px;
+            border-radius: 7px;
+            font-size: 8px;
+            font-family: sans-serif;
+        }
+
+        .button {
+            text-align: center;
+        }
+
+        .button button {
+            padding: 7px 9px;
+            border-radius: 15px;
+            background-color: rgb(170, 206, 237);
+            color: blue;
+            font-size: 10px;
+            margin-top: 7px;
+            border: none;
+            font: weight 600px;
+            cursor: pointer;
+        }
+
+        .button button:hover {
+            background-color: rgb(194, 225, 246);
+            color: rgb(10, 136, 214);
         }
     </style>
 </head>
 
-<body style="background-color:rgb(227, 232, 236);">
+<body>
     <!-- Card.png is a file which contains a cadr Image. Write HTML and CSS code to design that card -->
 
-    <div class="box"><img src="car.jpg" alt="Car" width="340px"></div>
+    <div class="card">
+        <div width="188" class="image">
+            <img width="188" src="https://www.fourwindslakeside.com/wp-content/uploads/2022/04/rental-bottom05.jpg"
+                alt="Boat">
+        </div>
+
+        <div class="capsules">
+            <span>Boating</span>
+            <span>Lake</span>
+        </div>
+        <div class="content">
+            <h2>Ayush</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit fugiat aut accusamus reiciendis
+                doloremque rem architecto repellat quaerat, facilis error, at iusto odit.
+            </p>
+        </div>
+        <div class="button">
+            <button>Read More</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div width="188" class="image">
+            <img width="188" src="https://www.fourwindslakeside.com/wp-content/uploads/2022/04/rental-bottom05.jpg"
+                alt="Boat">
+        </div>
+
+        <div class="capsules">
+            <span>Boating</span>
+            <span>Lake</span>
+        </div>
+        <div class="content">
+            <h2>Ayush</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit fugiat aut accusamus reiciendis
+                doloremque rem architecto repellat quaerat, facilis error, at iusto odit.
+            </p>
+        </div>
+        <div class="button">
+            <button>Read More</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div width="188" class="image">
+            <img width="188" src="https://www.fourwindslakeside.com/wp-content/uploads/2022/04/rental-bottom05.jpg"
+                alt="Boat">
+        </div>
+
+        <div class="capsules">
+            <span>Boating</span>
+            <span>Lake</span>
+        </div>
+        <div class="content">
+            <h2>Ayush</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit fugiat aut accusamus reiciendis
+                doloremque rem architecto repellat quaerat, facilis error, at iusto odit.
+            </p>
+        </div>
+        <div class="button">
+            <button>Read More</button>
+        </div>
+    </div>
 </body>
 
 </html>
